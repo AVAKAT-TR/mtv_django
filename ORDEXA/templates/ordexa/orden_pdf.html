@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 12pt; }
+    h1 { text-align: center; }
+    .total { text-align: right; font-weight: bold; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Orden de Compra</h1>
+  <p><strong>Comprador:</strong> {{ orden.comprador }}</p>
+  <p><strong>Vendedor:</strong> {{ orden.vendedor }}</p>
+  <p><strong>Fecha de emisión:</strong> {{ orden.fecha_emision }}</p>
+  <p><strong>Fecha de vencimiento:</strong> {{ orden.fecha_vencimiento }}</p>
+
+  <h3>Detalle de ítems:</h3>
+  <pre>{{ orden.detalle_items }}</pre>
+
+  <p class="total">Monto total: ${{ orden.monto_total }}</p>
+</body>
+</html>

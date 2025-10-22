@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+    input { margin: 5px; padding: 8px; }
+    button { padding: 8px 15px; }
+  </style>
+</head>
+<body>
+  <h1>🔐 Iniciar Sesión</h1>
+
+  {% if messages %}
+    {% for message in messages %}
+      <p style="color:red;">{{ message }}</p>
+    {% endfor %}
+  {% endif %}
+
+  <form method="post">
+    {% csrf_token %}
+    <p><input type="text" name="username" placeholder="Usuario" required></p>
+    <p><input type="password" name="password" placeholder="Contraseña" required></p>
+    <button type="submit">Ingresar</button>
+  </form>
+
+  <p>¿No tienes cuenta? <a href="{% url 'register' %}">Regístrate aquí</a></p>
+</body>
+</html>
