@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include("ORDEXA.urls")),  # 👈 conecta tu app
+    path('admin/', admin.site.urls),
+    path("", include("COTIFAC.urls")),  # 👈 ahora Django buscará las rutas de tu nueva app
 ]

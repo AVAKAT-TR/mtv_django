@@ -1,0 +1,1227 @@
+[
+{
+  "model": "COTIFAC.ordencompra",
+  "pk": 37,
+  "fields": {
+    "comprador": "Pablo Toledo",
+    "vendedor": null,
+    "fecha_emision": "2025-10-11",
+    "fecha_vencimiento": "2025-10-11",
+    "descuento": "1.00",
+    "monto_total": "150975.00",
+    "usuario": 1,
+    "estado": "pendiente"
+  }
+},
+{
+  "model": "COTIFAC.ordencompra",
+  "pk": 40,
+  "fields": {
+    "comprador": "María",
+    "vendedor": null,
+    "fecha_emision": "2025-10-24",
+    "fecha_vencimiento": "2025-10-29",
+    "descuento": "5.00",
+    "monto_total": "295450.00",
+    "usuario": 3,
+    "estado": "pendiente"
+  }
+},
+{
+  "model": "COTIFAC.ordencompra",
+  "pk": 41,
+  "fields": {
+    "comprador": "María",
+    "vendedor": null,
+    "fecha_emision": "2025-10-24",
+    "fecha_vencimiento": "2025-10-29",
+    "descuento": "5.00",
+    "monto_total": "288800.00",
+    "usuario": 3,
+    "estado": "pendiente"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 70,
+  "fields": {
+    "orden": 37,
+    "producto": 5,
+    "descripcion": "COJÍN LECTOR PIQUÉ CRUDO 65x65",
+    "cantidad": 1,
+    "precio": "150000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 71,
+  "fields": {
+    "orden": 37,
+    "producto": null,
+    "descripcion": "Plumón especial 1,40x1,10",
+    "cantidad": 1,
+    "precio": "1500.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 72,
+  "fields": {
+    "orden": 37,
+    "producto": null,
+    "descripcion": "tuto especial",
+    "cantidad": 1,
+    "precio": "1000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 78,
+  "fields": {
+    "orden": 40,
+    "producto": null,
+    "descripcion": "Plumón King Oberhaus (cambio tela)",
+    "cantidad": 1,
+    "precio": "170000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 79,
+  "fields": {
+    "orden": 40,
+    "producto": null,
+    "descripcion": "Almohada 50x70 Duvet (cambio tela)",
+    "cantidad": 3,
+    "precio": "37000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 80,
+  "fields": {
+    "orden": 40,
+    "producto": null,
+    "descripcion": "Almohada 40x60 Duvet (cambio tela)",
+    "cantidad": 1,
+    "precio": "30000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 81,
+  "fields": {
+    "orden": 41,
+    "producto": null,
+    "descripcion": "Plumón King Oberhaus (cambio tela)",
+    "cantidad": 1,
+    "precio": "170000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 82,
+  "fields": {
+    "orden": 41,
+    "producto": null,
+    "descripcion": "Almohada 50x70 Duvet (cambio tela)",
+    "cantidad": 2,
+    "precio": "37000.00"
+  }
+},
+{
+  "model": "COTIFAC.item",
+  "pk": 83,
+  "fields": {
+    "orden": 41,
+    "producto": null,
+    "descripcion": "Almohada 40x60 Duvet (cambio tela)",
+    "cantidad": 2,
+    "precio": "30000.00"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 1,
+  "fields": {
+    "tipo": "TUTITO",
+    "codigo": "SUAVE",
+    "medida": "30x50",
+    "precio": "40000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 2,
+  "fields": {
+    "tipo": "TUTITO",
+    "codigo": "DUVET",
+    "medida": "25x40",
+    "precio": "30000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 3,
+  "fields": {
+    "tipo": "TUTITO",
+    "codigo": "DUVET",
+    "medida": "30x50",
+    "precio": "55000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 4,
+  "fields": {
+    "tipo": "COJÍN LECTOR",
+    "codigo": "PIQUÉ BLANCO",
+    "medida": "65x65",
+    "precio": "150000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 5,
+  "fields": {
+    "tipo": "COJÍN LECTOR",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "65x65",
+    "precio": "150000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 6,
+  "fields": {
+    "tipo": "COJÍN LECTOR",
+    "codigo": "CHIC",
+    "medida": "65x65",
+    "precio": "150000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 7,
+  "fields": {
+    "tipo": "COJÍN LECTOR",
+    "codigo": "NIVEO",
+    "medida": "65x65",
+    "precio": "150000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 8,
+  "fields": {
+    "tipo": "FEATHERBED",
+    "codigo": "FEATHERBED1",
+    "medida": "1.5PLAZAS 1.05x2.05",
+    "precio": "420000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 9,
+  "fields": {
+    "tipo": "FEATHERBED",
+    "codigo": "FEATHERBED1",
+    "medida": "2PLAZAS 1.55x2.05",
+    "precio": "495000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 10,
+  "fields": {
+    "tipo": "FEATHERBED",
+    "codigo": "FEATHERBED1",
+    "medida": "QUEEN 1.65x2.05",
+    "precio": "520000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 11,
+  "fields": {
+    "tipo": "FEATHERBED",
+    "codigo": "FEATHERBED1",
+    "medida": "KING 1.85x2.05",
+    "precio": "565000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 12,
+  "fields": {
+    "tipo": "FEATHERBED",
+    "codigo": "FEATHERBED1",
+    "medida": "SUPERKING 2.05x2.05",
+    "precio": "630000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 13,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "1PLAZA 1.20x2.00",
+    "precio": "375000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 14,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "1PLAZA 1.40x2.00",
+    "precio": "440000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 15,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "1.5PLAZAS 1.60x2.00",
+    "precio": "490000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 16,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "690000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 17,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "810000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 18,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "KING 2.60x2.20",
+    "precio": "900000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 19,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "PREMIUM",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "995000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 20,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "OBERHAUS",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "767000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 21,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "OBERHAUS",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "880000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 22,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "OBERHAUS",
+    "medida": "KING 2.60x2.20",
+    "precio": "970000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 23,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "OBERHAUS",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "1045000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 24,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "HIS & HERS",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "615000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 25,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "HIS & HERS",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "720000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 26,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "HIS & HERS",
+    "medida": "KING 2.60x2.20",
+    "precio": "815000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 27,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "HIS & HERS",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "895000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 28,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "1PLAZA 1.20x2.00",
+    "precio": "250000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 29,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "1PLAZA 1.40x2.00",
+    "precio": "290000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 30,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "1.5PLAZAS 1.60x2.00",
+    "precio": "330000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 31,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "460000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 32,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "540000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 33,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "KING 2.60x2.20",
+    "precio": "605000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 34,
+  "fields": {
+    "tipo": "PLUMÓN",
+    "codigo": "VERANO",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "690000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 35,
+  "fields": {
+    "tipo": "COJÍN DECORATIVO",
+    "codigo": "VERANO",
+    "medida": "50x50",
+    "precio": "66000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 36,
+  "fields": {
+    "tipo": "COJÍN DECORATIVO",
+    "codigo": "INVIERNO",
+    "medida": "50x50",
+    "precio": "66000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 37,
+  "fields": {
+    "tipo": "COJÍN DECORATIVO",
+    "codigo": "OTOÑO",
+    "medida": "50x50",
+    "precio": "66000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 38,
+  "fields": {
+    "tipo": "COJÍN DECORATIVO",
+    "codigo": "PRIMAVERAL",
+    "medida": "50x50",
+    "precio": "66000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 39,
+  "fields": {
+    "tipo": "SAQUITO",
+    "codigo": "MARINO",
+    "medida": "NORMAL",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 40,
+  "fields": {
+    "tipo": "SAQUITO",
+    "codigo": "PRADERA",
+    "medida": "NORMAL",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 41,
+  "fields": {
+    "tipo": "SAQUITO",
+    "codigo": "AURORA",
+    "medida": "NORMAL",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 42,
+  "fields": {
+    "tipo": "SAQUITO",
+    "codigo": "ESTELAR",
+    "medida": "NORMAL",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 43,
+  "fields": {
+    "tipo": "SAQUITO",
+    "codigo": "LUNAR",
+    "medida": "NORMAL",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 44,
+  "fields": {
+    "tipo": "EXTENSIÓN SAQUITO",
+    "codigo": "PATITAS",
+    "medida": "NORMAL",
+    "precio": "70000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 45,
+  "fields": {
+    "tipo": "EXTENSIÓN SAQUITO",
+    "codigo": "SIN PATITAS",
+    "medida": "NORMAL",
+    "precio": "60000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 46,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "BRODERIÉ",
+    "medida": "25x40",
+    "precio": "20000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 47,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "BRODERIÉ",
+    "medida": "30x50",
+    "precio": "25000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 48,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "BRODERIÉ",
+    "medida": "40x60",
+    "precio": "28000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 49,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "BRODERIÉ",
+    "medida": "50x70",
+    "precio": "36000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 50,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "BRODERIÉ",
+    "medida": "50x90",
+    "precio": "40000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 51,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "DESHILADO",
+    "medida": "25x40",
+    "precio": "20000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 52,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "DESHILADO",
+    "medida": "30x50",
+    "precio": "25000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 53,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "DESHILADO",
+    "medida": "40x60",
+    "precio": "28000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 54,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "DESHILADO",
+    "medida": "50x70",
+    "precio": "36000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 55,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "DESHILADO",
+    "medida": "50x90",
+    "precio": "40000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 56,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "PROTECTORA",
+    "medida": "25x40",
+    "precio": "15000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 57,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "PROTECTORA",
+    "medida": "30x50",
+    "precio": "21000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 58,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "PROTECTORA",
+    "medida": "40x60",
+    "precio": "18000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 59,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "PROTECTORA",
+    "medida": "50x70",
+    "precio": "24000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 60,
+  "fields": {
+    "tipo": "FUNDA ALMOHADA",
+    "codigo": "PROTECTORA",
+    "medida": "50x90",
+    "precio": "27000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 61,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "1PLAZA 1.20x2.00",
+    "precio": "90000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 62,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "1PLAZA 1.40x2.00",
+    "precio": "105000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 63,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "1.5PLAZAS 1.60x2.00",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 64,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "165000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 65,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "198000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 66,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "KING 2.60x2.20",
+    "precio": "214000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 67,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "DESHILADO",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "242000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 68,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "1PLAZA 1.20x2.00",
+    "precio": "90000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 69,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "1PLAZA 1.40x2.00",
+    "precio": "105000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 70,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "1.5PLAZAS 1.60x2.00",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 71,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "165000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 72,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "198000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 73,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "KING 2.60x2.20",
+    "precio": "214000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 74,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "FP PIQUÉ BLANCO",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "242000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 75,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "1PLAZA 1.20x2.00",
+    "precio": "90000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 76,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "1PLAZA 1.40x2.00",
+    "precio": "105000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 77,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "1.5PLAZAS 1.60x2.00",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 78,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "2Plazas 2.20x2.00",
+    "precio": "165000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 79,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "QUEEN 2.40x2.20",
+    "precio": "198000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 80,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "KING 2.60x2.20",
+    "precio": "214000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 81,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN",
+    "codigo": "PIQUÉ CRUDO",
+    "medida": "SUPERKING 2.70x2.40",
+    "precio": "242000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 82,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN BEBÉ",
+    "codigo": "DESHILADO",
+    "medida": "0.80x1.20",
+    "precio": "55000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 83,
+  "fields": {
+    "tipo": "FUNDA PLUMÓN BEBÉ",
+    "codigo": "DESHILADO",
+    "medida": "0.80x1.40",
+    "precio": "60000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 84,
+  "fields": {
+    "tipo": "PLUMÓN BEBÉ",
+    "codigo": "DUVET",
+    "medida": "1.20x0.80",
+    "precio": "150000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 85,
+  "fields": {
+    "tipo": "PLUMÓN BEBÉ",
+    "codigo": "DUVET",
+    "medida": "1.40x0.80",
+    "precio": "175000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 86,
+  "fields": {
+    "tipo": "CARAMELO",
+    "codigo": "DUVET",
+    "medida": "15DIAMETROx40LARGO",
+    "precio": "70000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 87,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "DUVET",
+    "medida": "40x60",
+    "precio": "100000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 88,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "DUVET",
+    "medida": "50x70",
+    "precio": "240000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 89,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "DUVET",
+    "medida": "50x90",
+    "precio": "280000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 90,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "FIRME",
+    "medida": "50x70",
+    "precio": "120000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 91,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "FIRME",
+    "medida": "50x90",
+    "precio": "170000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 92,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "SUAVE",
+    "medida": "50x70",
+    "precio": "170000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 93,
+  "fields": {
+    "tipo": "ALMOHADA",
+    "codigo": "SUAVE",
+    "medida": "50x90",
+    "precio": "200000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 94,
+  "fields": {
+    "tipo": "MOISÉS",
+    "codigo": "DUVET",
+    "medida": "50x70",
+    "precio": "70000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 95,
+  "fields": {
+    "tipo": "MOISÉS",
+    "codigo": "DUVET",
+    "medida": "50x80",
+    "precio": "80000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 96,
+  "fields": {
+    "tipo": "ESPECIAL",
+    "codigo": "ALMOHADA",
+    "medida": "-",
+    "precio": "20000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 97,
+  "fields": {
+    "tipo": "ESPECIAL",
+    "codigo": "ALMOHADA  SUAVE 80X100",
+    "medida": "-",
+    "precio": "100000"
+  }
+},
+{
+  "model": "COTIFAC.producto",
+  "pk": 98,
+  "fields": {
+    "tipo": "ESPECIAL",
+    "codigo": "saquito mas relleno",
+    "medida": "-",
+    "precio": "150000"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-10-23T13:18:14.546Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "test1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-10-23T15:04:32.044Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "TEST",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Nmv5uT9CHZB3LAa9CajTlZ$ld7qNwJb7+MoHo2NJZjDjEt3inbzdNamwbhNCtUv1uI=",
+    "last_login": "2025-10-24T20:57:19.822Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "pablotr54k1@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-10-23T12:43:50.805Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$cus8BYM2CmHOjtUVI5r4Nu$YaU7xjhWz/icun8z0u1dsd00q1vw3KfxON1dgPsBDXo=",
+    "last_login": "2025-10-23T13:18:20.944Z",
+    "is_superuser": false,
+    "username": "test1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-10-23T13:17:54Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hqdzfkBkRudhcP1z4VSVls$tFX2XKqNYoBlkdaYXRH9uV3IwMb97sVKmn+TCICJUTc=",
+    "last_login": "2025-10-24T14:35:24.016Z",
+    "is_superuser": false,
+    "username": "TEST",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-10-23T15:04:15Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "09ag0unrxj8r5brstlcfc47o426cdphz",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyEsiIBH7_0GssAiVQNJaU_Gf5cmPeh1Zt57M4_bWvzWafFzYlcG7PTLAsYn1V2kB9Z747HVdZkD3xN-2M6nluh1O9q_g4K9jLXDM2gFlKUEAyqScRmdlgQiC7RZULQq5mBUlHSxI1cYbBpIg5WY2ecL3KQ4LQ:1vCOqd:u_FP7yiB08QllM9cXVjcqHHz1x1BQ6ttdV9ZZnjjR7k",
+    "expire_date": "2025-11-07T20:57:19.824Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ul1tjwvrdx8iw6kbkcw5lexs62keame1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG9tAi4dN9vIPcBUjU0Ke3K-O_apAvdnpk5LxVxW0vcWlriJOqienX63Qj5keoO5I71Nmue67pMpHdFH7TpcZb0vB7u30HBVr41ADuxJmQv4gZrXUY2iQ0I8EA9CQCacO5Mlz1ZGLz0gYVCRhsoJ1DvD-sjOFw:1vCIt2:5RwPxP9LrUn2QpHhfpAuoebSaBr993881rC3uLCyZTk",
+    "expire_date": "2025-11-07T14:35:24.018Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yad4ht56t1n2errl9a2sc1naxwr3yxq2",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyEsiIBH7_0GssAiVQNJaU_Gf5cmPeh1Zt57M4_bWvzWafFzYlcG7PTLAsYn1V2kB9Z747HVdZkD3xN-2M6nluh1O9q_g4K9jLXDM2gFlKUEAyqScRmdlgQiC7RZULQq5mBUlHSxI1cYbBpIg5WY2ecL3KQ4LQ:1vBvC7:irNq9HBhoXWB_swP8A7Y2VNRb9nHlamfM4phwmsC0pc",
+    "expire_date": "2025-11-06T13:17:31.368Z"
+  }
+}
+]

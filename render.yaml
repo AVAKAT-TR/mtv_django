@@ -1,8 +1,9 @@
 services:
   - type: web
-    name: mvt-django
+    name: cotifac
     env: python
     plan: free
+
     buildCommand: >
       pip install -r requirements.txt &&
       python manage.py makemigrations &&
@@ -12,9 +13,11 @@ from django.contrib.auth import get_user_model;
 User = get_user_model();
 User.objects.filter(username='admin').exists() or User.objects.create_superuser('admin', 'admin@example.com', 'Admin1234')
 "
+
     startCommand: "gunicorn mvt_django.wsgi:application"
+
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: mvt_django.settings
       - key: PYTHON_VERSION
-        value: 3.12.0
+        value: 3.13.7

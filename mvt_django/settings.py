@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'ORDEXA',
+    'COTIFAC',
     'django.contrib.humanize',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -74,37 +74,42 @@ WSGI_APPLICATION = 'mvt_django.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-#DATABASES = {
-    #'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-   #     'NAME': BASE_DIR / 'db.sqlite3',
-  #  }
-
-
-
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from pathlib import Path
 
+
+#BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+
+
+
+#import os
+#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
+#}
 
 
 
 
 
 #'default': {
-       # 'ENGINE': 'django.db.backends.mysql',
-      #  'NAME': 'ORDEXADB',
-     #   'USER': 'root',
-    #    'PASSWORD': 'Inacap.2024',
-   #     'HOST': 'localhost',
-  #      'PORT': '3306',
- #   }
-#}
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'ganss',
+#        'USER': 'root',
+#        'PASSWORD': 'Inacap.2024',
+#        'HOST': 'localhost',
+#        'PORT': '3306',
+#    }
+}
 
 
 # Password validation
@@ -141,9 +146,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-import os
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'ORDEXA', 'static')]
+
 
 
 # Default primary key field type

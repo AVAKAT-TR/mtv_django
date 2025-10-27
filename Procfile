@@ -1,1 +1,1 @@
-web: gunicorn mvt_django.wsgi
+web: gunicorn mvt_django.wsgi:application
